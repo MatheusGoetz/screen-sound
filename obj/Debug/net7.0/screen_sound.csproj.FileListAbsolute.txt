@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\bin\Debug\net7.0\screen_sound.exe
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\bin\Debug\net7.0\screen_sound.deps.json
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\bin\Debug\net7.0\screen_sound.runtimeconfig.json
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\bin\Debug\net7.0\screen_sound.dll
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\bin\Debug\net7.0\screen_sound.pdb
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\screen_sound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\screen_sound.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\screen_sound.AssemblyInfo.cs
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\screen_sound.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\screen_sound.dll
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\refint\screen_sound.dll
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\screen_sound.pdb
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\screen_sound.genruntimeconfig.cache
+C:\Users\User\OneDrive\Área de Trabalho\estudos\Alura\csharp\screen_sound\screen_sound\obj\Debug\net7.0\ref\screen_sound.dll
