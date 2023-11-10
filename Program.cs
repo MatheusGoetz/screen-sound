@@ -1,4 +1,4 @@
-﻿List<string> listaDeBandas = new List<string>();
+﻿List<string> listaDeBandas = new List<string> {"Pearl Jam", "The Beatles"};
 
 void ExibirLogo()
 {
@@ -32,7 +32,7 @@ void ExibirOpcoesMenu()
             RegistrarBanda();
             break;
         case 2:
-            Console.WriteLine("Voce escolheu a opção " + opcaoEscolhidaNumero);
+            MostrarBandasRegistradas();
             break;
         case 3:
             Console.WriteLine("Voce escolheu a opção " + opcaoEscolhidaNumero);
@@ -52,7 +52,9 @@ void ExibirOpcoesMenu()
 void RegistrarBanda()
 {
     Console.Clear();
+    Console.WriteLine("*******************");
     Console.WriteLine("Registro de bandas");
+    Console.WriteLine("*******************\n");
     Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine()!;
     listaDeBandas.Add(nomeDaBanda);
@@ -61,6 +63,23 @@ void RegistrarBanda()
     Console.Clear();
     ExibirOpcoesMenu();
 }
+
+void MostrarBandasRegistradas() {
+    Console.Clear();
+    Console.WriteLine("****************************");
+    Console.WriteLine("Exibindo Bandas Registradas");
+    Console.WriteLine("****************************\n");
+
+    foreach (string banda in listaDeBandas)
+    {
+        Console.WriteLine($"Banda: {banda}");
+    };
+
+    Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal");
+    Console.ReadKey();
+    Console.Clear();
+    ExibirOpcoesMenu();
+};
 
 ExibirLogo();
 ExibirOpcoesMenu();
