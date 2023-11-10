@@ -1,4 +1,4 @@
-﻿List<string> listaDeBandas = new List<string> {"Pearl Jam", "The Beatles"};
+﻿List<string> listaDeBandas = new List<string> { "Pearl Jam", "The Beatles" };
 
 void ExibirLogo()
 {
@@ -52,9 +52,7 @@ void ExibirOpcoesMenu()
 void RegistrarBanda()
 {
     Console.Clear();
-    Console.WriteLine("*******************");
-    Console.WriteLine("Registro de bandas");
-    Console.WriteLine("*******************\n");
+    ExibirTituloDaOpcao("Registro Das Bandas");
     Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine()!;
     listaDeBandas.Add(nomeDaBanda);
@@ -64,11 +62,10 @@ void RegistrarBanda()
     ExibirOpcoesMenu();
 }
 
-void MostrarBandasRegistradas() {
+void MostrarBandasRegistradas()
+{
     Console.Clear();
-    Console.WriteLine("****************************");
-    Console.WriteLine("Exibindo Bandas Registradas");
-    Console.WriteLine("****************************\n");
+    ExibirTituloDaOpcao("Exibindo Bandas Registradas");
 
     foreach (string banda in listaDeBandas)
     {
@@ -80,6 +77,13 @@ void MostrarBandasRegistradas() {
     Console.Clear();
     ExibirOpcoesMenu();
 };
-
+void ExibirTituloDaOpcao(string titulo)
+{
+    int quantidadeLetras = titulo.Length;
+    string marcadores = string.Empty.PadLeft(quantidadeLetras, '*');
+    Console.WriteLine(marcadores);
+    Console.WriteLine(titulo);
+    Console.WriteLine(marcadores);
+};
 ExibirLogo();
 ExibirOpcoesMenu();
